@@ -59,7 +59,7 @@ a:hover {
 /*Box Modeling*/
 
 .container {
-  width: 600px;   /* This sets the width */
+  width: 1000px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
