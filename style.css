@@ -34,6 +34,7 @@ p {
   padding: 0px 50px 10px 30px;
 }
 a {
+  font-size: 25px;
   text-decoration: none;
   color: #757575;
 }
@@ -70,7 +71,7 @@ li {
 }
 
 .card {
-  background-color: rgb(255,255,255);
+  background-color: #F5F5F5;
   border-radius: 2px;
   box-shadow: 2px 2px 5px ##F5F5F5;
   text-align: center;
