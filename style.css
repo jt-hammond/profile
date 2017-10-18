@@ -1,7 +1,7 @@
 /*Fonts and Colours*/
 body {
-  background-color: rgb(245,245,245);
-  color: #6C695A;
+  background-color:#9E9E9E;
+  color: #757575;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   font-size: 16px;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #EDA528;
+  color: #212121;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 30px;
@@ -35,11 +35,24 @@ p {
 }
 a {
   text-decoration: none;
-  color: #6B5A6C;
+  color: #757575;
 }
 
 a:hover {
-  color: #EDA528;
+  color: #FFC107;
+}
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #616161;
+  color: #212121
+}
+#page-content {
+  margin-left: 300px;
 }
 
 
@@ -53,7 +66,7 @@ a:hover {
 .card {
   background-color: rgb(255,255,255);
   border-radius: 2px;
-  box-shadow: 2px 2px 5px #B5B5B5;
+  box-shadow: 2px 2px 5px ##F5F5F5;
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
@@ -63,7 +76,7 @@ img {
     width: 50%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 1px 1px 2px #B5B5B5;
+    box-shadow: 1px 1px 2px ##F5F5F5;
     margin: 5px, auto;
 }
 
