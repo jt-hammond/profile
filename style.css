@@ -1,0 +1,81 @@
+/*Fonts and Colours*/
+body {
+  background-color: rgb(245,245,245);
+  color: #6C695A;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  color: #EDA528;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2 {
+  padding: 10px;
+}
+
+h3 {
+  padding: 0px 50px 0px 30px;
+  font-size: 18px;
+}
+
+p {
+  padding: 0px 50px 10px 30px;
+}
+a {
+  text-decoration: none;
+  color: #6B5A6C;
+}
+
+a:hover {
+  color: #EDA528;
+}
+
+
+/*Box Modeling*/
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: rgb(255,255,255);
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px #888888;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888888;
+    margin: 5px, auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.table-left {
+  text-align: left;
+}
