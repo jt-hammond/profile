@@ -92,3 +92,8 @@ img {
 .table-left {
   text-align: left;
 }
+
+.sidebar {
+  align-content: left;
+  list-style: none;
+}
