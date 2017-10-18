@@ -49,7 +49,9 @@ a:hover {
   top: 0;
   bottom: 0;
   background-color: #616161;
-  color: #212121
+  color: #212121;
+  align-content: left;
+  list-style: none;
 }
 #page-content {
   margin-left: 300px;
